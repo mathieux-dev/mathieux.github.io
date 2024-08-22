@@ -2,12 +2,13 @@ import 'package:flutter/material.dart';
 
 class AppThemeData {
   // Colors: Main Colors
-  static const Color primaryColor = Color.fromRGBO(1, 159, 171, 1.0);
-  static const Color secondaryColor = Color.fromRGBO(18, 18, 18, 1.0);
+  static const Color primaryColor = Color.fromRGBO(84, 195, 101, 1);
+  static const Color secondaryColor = Color.fromRGBO(5, 43, 10, 1);
+  static const Color terciaryColor = Color.fromRGBO(84, 195, 101, 1);
 
   // Colors: Text
   static const textPrimary = primaryColor;
-  static const textWhite = Color.fromRGBO(255, 255, 255, 1.0);
+  static const textWhite = Color.fromRGBO(201, 255, 214, 1);
   static const textGreyDark = Color.fromRGBO(147, 147, 147, 1.0);
   static const textGreyLight = Color.fromRGBO(205, 205, 205, 1.0);
   static const textCursor = Color.fromRGBO(61, 61, 61, 1.0);
@@ -16,17 +17,13 @@ class AppThemeData {
   static const buttonPrimary = primaryColor;
   static const buttonSecondary = Color.fromRGBO(50, 50, 50, 1.0);
   static const iconPrimary = primaryColor;
-  static const iconSecondary = Color.fromRGBO(255, 255, 255, 1.0);
+  static const iconSecondary = Color.fromRGBO(201, 255, 214, 1);
 
   // Colors: Background and Cards
   static const backgroundBlack = Color.fromRGBO(18, 18, 18, 1.0);
   static const backgroundGrey = Color.fromRGBO(25, 25, 25, 1.0);
   static const cardGrey = Color.fromRGBO(15, 15, 15, 1.0);
   static const tooltip = Color.fromRGBO(33, 33, 33, 1.0);
-
-  // Colors: Opacity
-  static const opacityPrimary = Color.fromRGBO(1, 159, 171, 1.0);
-  static const opacitySecondary = Color.fromRGBO(160, 115, 115, 0.502);
 
   // Radius
   static const double cornerRadiusCard = 40.0;
